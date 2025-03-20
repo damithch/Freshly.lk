@@ -29,11 +29,11 @@ const Header = () => {
 
   return (
     <Navbar
-      bg="dark"
+      bg="success"  // Changed from "dark" to "success" for a nice green color
       variant="dark"
       expand="md"
       collapseOnSelect
-      className="fixed-top z-2 custom-navbar"  // Custom CSS class applied here
+      className="fixed-top z-2 custom-navbar"
     >
       <Container>
         <LinkContainer to="/">

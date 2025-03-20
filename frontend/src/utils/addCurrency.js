@@ -1,4 +1,4 @@
-// Convert the number to a formatted string
+// Convert the number to a formatted string in Sri Lankan Rupees
 export const addCurrency = num => {
-  return `₹${num?.toLocaleString('en-IN')}`;
+  return `Rs. ${num?.toLocaleString('en-LK')}`;
 };
